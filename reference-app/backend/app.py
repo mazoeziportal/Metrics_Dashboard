@@ -61,7 +61,7 @@ def my_api():
     with tracer.start_span('my-api'):
         answer = "something"
         return jsonify(response=answer)
-        
+
 
 @app.route("/star", methods=["POST"])
 def add_star():
@@ -76,4 +76,5 @@ def add_star():
 
 if __name__ == "__main__":
     app.run()
+
 
