@@ -60,3 +60,4 @@ spec:
   namespaceSelector:
     matchNames:
     - default
+    
