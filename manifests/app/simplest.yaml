@@ -3,3 +3,4 @@ kind: Jaeger
 metadata:
   name: simplest
   namespace: observability
+  
