@@ -112,7 +112,7 @@ Create a Dashboard containing graphs that capture all the metrics of your KPIs a
 
 **Errors per second:** Number of failed (non HTTP 200) responses per second across the backend and frontend services categorized by error code.
 
-**Flask HTTP request total:** Status "200:  Number of  HTTP 200 responses per second across the backend and frontend services categorized by success code.
+**Flask HTTP request total:** Status "200":  Number of  HTTP 200 responses per second across the backend and frontend services categorized by success code.
 
 **Total requests per minute:** The total number of requests measured over one minute intervals in the backend and frontend pods.
 
