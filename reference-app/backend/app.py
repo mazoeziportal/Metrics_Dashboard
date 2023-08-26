@@ -10,6 +10,7 @@ from prometheus_flask_exporter import PrometheusMetrics
 from flask_pymongo import PyMongo
 import os
 
+
 app = Flask(__name__)
 CORS(app)
 app.config["MONGO_URI"] = "mongodb://example-mongodb-svc.default.svc.cluster.local:27017/example-mongodb"
@@ -54,11 +55,13 @@ def homepage():
         span.set_tag('message', response)
         return response
 
+
 @app.route("/api")
 def my_api():
     with tracer.start_span('my-api'):
         answer = "something"
         return jsonify(response=answer)
+        
 
 @app.route("/star", methods=["POST"])
 def add_star():
