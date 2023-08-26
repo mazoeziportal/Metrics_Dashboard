@@ -91,12 +91,21 @@ TROUBLE TICKET
 
 ## Graph Description
 **Uptime:** The uptime of the backend and frontend services as they are fully operational for the last 24 hours.
+
 **Memory Usage:** The memory usage of the backend and frontend services.
+
 **CPU Usage:** The CPU usage of the backend and frontend services as measured over 30 seconds intervals.
+
 **Average response time [30s]:** The average response time across the backend and frontend services measured over 30 seconds intervals for successful requests.
+
 **Requests per second:** Number of successful requests per second across the backend and frontend services.
+
 **Requests per minute:** Number of successful requests per minute across the backend and frontend services.
+
 **Errors per second:** Number of failed (non HTTP 200) responses per second across the backend and frontend services categorized by error code.
+
 **Flask HTTP request total:** Status "200:  Number of  HTTP 200 responses per second across the backend and frontend services categorized by success code.
+
 **Total requests per minute:** The total number of requests measured over one minute intervals in the backend and frontend pods.
+
 **Total received alerts:** The total number of alerts received by alertmanager.
